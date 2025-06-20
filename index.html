@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="logo.png">
+        <link rel="stylesheet" href="all.min.css">
+    </head>
+    <body>
+        <!-------------------------Home------------------------------>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <h1><span>M</span>ohan.</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+
+                <div class="header-text">
+                    <p><span>FULL STACK</span> Developer</p>
+                    <h1>Hi,I'm <span>Mohan</span> Kumar<br>from V S B</h1>
+                </div>
+            </div>
+        </div>
+<!------------------------------------about-------------------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="About-img.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis 
+                            temporibus nisi quibusdam illo
+                             maiores facilis laudantium porro placeat unde excepturi,
+                             commodi, voluptates dolorem autem, distinctio ad 
+                             minus tempora nobis fugit?
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>FRONTEND</span> <br>Designing Front end of web application</li>
+                                <li><span>BACKEND</span> <br>Designing Back end of web application</li>
+                                <li><span>UI/UX</span> <br>Designing User interface</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2024-Current</span> <br>Amazon junior Developer</li>
+                                <li><span>2023-2024</span> <br>college website developer</li>
+                                <li><span>2022-2023</span> <br>Working on internship</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Current</span> <br>college 3rd Year</li>
+                                <li><span>2025</span> <br>college 2nd Year</li>
+                                <li><span>2024</span> <br>College 1st year</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------------services--------------  ---->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My services</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-solid fa-desktop"></i>
+                        <h2>Front-End</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                             Eveniet dolorum, unde inventore nihil nemo praesentium 
+                             ullam veritatis quae? Vitae sunt quidem dolorem ea et 
+                             saepe reprehenderit illum repellat vero labore!
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-server"></i>
+                        <h2>Back-End</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                             Eveniet dolorum, unde inventore nihil nemo praesentium 
+                             ullam veritatis quae? Vitae sunt quidem dolorem ea et 
+                             saepe reprehenderit illum repellat vero labore!
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-computer-mouse"></i>
+                        <h2>UI/UX</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                             Eveniet dolorum, unde inventore nihil nemo praesentium 
+                             ullam veritatis quae? Vitae sunt quidem dolorem ea et 
+                             saepe reprehenderit illum repellat vero labore!
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------------Portfolio------------------------------>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Front-End.jpg" alt="">
+                        <div class="layer">
+                            <h3>Front-end</h3>
+                            <p>This is a Front-end application
+                                created by me. Here you can experience all 
+                                about my front end development
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Back-End.jpg" alt="">
+                        <div class="layer">
+                            <h3>Back-end</h3>
+                            <p>This is a Back-end application
+                                created by me. Here you can experience all 
+                                about my Back end development
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="UI UX.png" alt="">
+                        <div class="layer">
+                            <h3>UI/UX</h3>
+                            <p>This is a UI/UX application
+                                created by me. Here you can experience all 
+                                about my UI/UX development
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+<!--------------------------------contact---------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                </div>
+                <a href="my cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name"required>
+                    <input type="email" name="email" placeholder="Your email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <P>Copyright @ Mohan. Made by VS code</P>
+    </div>
+</div>
+
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px"
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxJwh97hHyL_ZF3SMY9a_3YqAWmQPLs88Awnh9CSEQl_8iI8GJ-N7Twgb55JqH8xeU-xA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </body>
+</html>
